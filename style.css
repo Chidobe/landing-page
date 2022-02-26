@@ -1,0 +1,135 @@
+
+
+
+/* ============
+Global styles
+==============*/
+/*.header, 
+.hero,
+.projects,
+.quote,
+.cta-container,
+.footer {
+    padding-left: 200px;
+    padding-right: 200px;
+}*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.hero-image {
+    width: 300px;
+    height: auto;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.port-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.portfolio {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+
+}
+
+.author {
+    margin-left: auto;
+    display: flex;
+    
+}
+
+.cta-container {
+    display: flex;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #1f2937;
+
+}
+
+/* ============
+Typography styles
+==============*/
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-text, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
